@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    volumes:
+      - trips_data:/data
+    environment:
+      - DATABASE_PATH=/data/trips.db
+    expose:
+      - "8000"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      - "8095:80"
+    depends_on:
+      - backend
+
+volumes:
+  trips_data:

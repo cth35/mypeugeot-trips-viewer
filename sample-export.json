@@ -1,0 +1,66 @@
+[
+    {
+        "trips": [
+            {
+				"mergedTrips": [],
+				"idPims": 4972,
+				"id": 6965,
+				"start": {
+					"street": "Carretera de Torroella",
+					"streetNumber": "",
+					"intersection": "",
+					"city": "Torroella de Montgrí",
+					"postalCode": "17257",
+					"country": "Espagne",
+					"quality": -1,
+					"mileage": 103938.6,
+					"altitude": -1,
+					"longitude": -1,
+					"latitude": -1,
+					"date": "2025-08-18T18:49:00.000Z"
+				},
+				"end": {
+					"street": "Camí Vell de Torroella a l'Estartit",
+					"streetNumber": "142",
+					"intersection": "",
+					"city": "Torroella de Montgrí",
+					"postalCode": "17258",
+					"country": "Espagne",
+					"quality": -1,
+					"mileage": 103939.6,
+					"altitude": 0,
+					"longitude": 3.17733,
+					"latitude": 42.04967,
+					"date": "2025-08-18T18:52:00.000Z"
+				},
+				"destination": {
+					"street": "",
+					"streetNumber": "",
+					"intersection": "",
+					"city": "",
+					"postalCode": "",
+					"country": "",
+					"longitude": 0,
+					"latitude": 0
+				},
+				"otherEnergyLevel": -1,
+				"maintenancePassed": false,
+				"fuelLevel": 58,
+				"fuelConsumption": 66640,
+				"distanceToNextMaintenance": 15100,
+				"travelTime": 180,
+				"fuelAutonomy": 580,
+				"source": "ALTRAN",
+				"daysUntilNextMaintenance": -1,
+				"otherEnergyAutonomy": -1,
+				"priceFuel": 1.75,
+				"otherEnergyType": 3,
+				"distance": 1,
+				"alerts": [],
+				"categoryLabel": "Autre",
+				"defaultCategoryEnum": "OTHER"
+			}
+        ],
+        "vin": "VF3XXXXXXXXXXXXXXXX"
+    }
+]
